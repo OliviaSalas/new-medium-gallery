@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>New Medium Gallery</title>
+	<link rel="stylesheet" href="styles/screen.css">
+	<meta name="viewport" content="width=device-width, user-scalable=0" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	
+</head>
+<body class="clearfix">
+	<header class="clearfix">
+		<h1 class="clearfix"><a href="">New medium gallery</a></h1>
+		<nav class="clearfix">
+			<ul class="clearfix">
+				<li><a href="#">Accueil</a></li>
+				<li><a href="liste.html">Artistes</a></li>
+				<li><a href="agenda.html">Agenda</a></li>
+				<li><a href="about.html">A propos</a></li>
+			</ul>
+			<div class="langChoice clearfix">
+				<div class="lang fr"><a href="">FR</a></div>
+				<div class="lang separate">|</div>
+				<div class="lang en"><a href="">EN</a></div>
+			</div>
+		</nav>
+	</header>
+
+	<main class="main-home clearfix">
+
+		<section class="exhibition clearfix">
+			<div class="exhibit-home" onClick="redirAgenda()">
+				<img class="exhibit-photograph" src="img-content/img-accueil.png" alt="exposition en cours">
+				<div class="bandeau-expo">
+					<p>EN COURS <br><span>Exposition Bill Viola</span><br>Du 1<sup>er</sup> avril au 18 juin 2017</p>
+				</div>
+			</div>
+			<div class="text-description">
+				<p><span>New Media Gallery</span> est une galerie d'art fictive, créée par Tippi Degré et Olivia Salas dans le cadre d'un travail d'intégration de première année à HETIC.</p>
+				<p>Cette galerie est spécialisée dans l'art vidéo et l'art des nouveaux médias.</p>
+			</div>
+		</section>
+
+		<section class="press clearfix">
+			<article class="col50 interview">
+				<figure>
+					<h4 class="title-interview">Interview</h4>
+					<figcaption>
+						<h5>Esteban</h5>
+						<p>Une vie hors du commun</p>
+					</figcaption>
+					<img src="img-content/img-presse-interview.jpg" alt="interview esteban">
+				</figure>
+			</article>
+
+			<article class="col50 portrait">
+				<figure>
+					<h4 class="title-portrait">Portrait</h4>
+					<figcaption>
+						<h5>Joan Jonas</h5>
+						<p>Une femme pas comme les autres</p>
+					</figcaption>
+					<img src="img-content/img-presse-portrait.jpg" alt="Portrait Joan Jonas">
+				</figure>
+			</article>
+		</section>
+
+	</main>
+
+	<footer class="clearfix">
+		<div class="socials clearfix">
+			<ul class="clearfix">
+				<li><a href="#"><img src="img-layout/facebook-logo-button.svg" alt="facebook"></a></li>
+				<li><a href=""><img src="img-layout/twitter-logo-button.svg" alt="twitter"></a></li>
+				<li><a href=""><img src="img-layout/instagram-logo.svg" alt="instagram"></a></li>
+			</ul>
+		</div>
+		<div class="nl clearfix">
+			<input class="nl-mail" id="mail" type="email" name="nl-mail" placeholder="Votre email...">
+			<input class="nl-submit" id="nl-mail" type="submit" name="nl-mail" value="S'inscrire">
+			<p class="clearfix">Inscrivez-vous à notre newsletter !</p>
+		</div>
+		<div class="credits clearfix">
+			<p class="copyright clearfix">&copy; Olivia Salas &amp; Tippi Degré</p>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+</html>

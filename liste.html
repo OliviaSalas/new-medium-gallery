@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>New Medium Gallery</title>
+	<link rel="stylesheet" href="styles/screen.css">
+	<meta name="viewport" content="width=device-width, user-scalable=0" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	
+</head>
+<body class="clearfix">
+	<header class="clearfix">
+		<h1 class="clearfix"><a href="">New medium gallery</a></h1>
+		<nav class="clearfix">
+			<ul class="clearfix">
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="#">Artistes</a></li>
+				<li><a href="agenda.html">Agenda</a></li>
+				<li><a href="about.html">A propos</a></li>
+			</ul>
+			<div class="langChoice clearfix">
+				<div class="lang fr"><a href="">FR</a></div>
+				<div class="lang separate">|</div>
+				<div class="lang en"><a href="">EN</a></div>
+			</div>
+		</nav>
+	</header>
+	<main class="main-liste clearfix">
+		<h2>Nos artistes</h2>
+		<div class="artist active clearfix" onClick="redirArtiste()">
+			<img src="img-content/bill-viola.jpg" alt="">
+			<p class="artistname"><a href="artiste.html" class="active">Bill Viola</a></p>
+		</div>
+		<div class="artist clearfix" onClick="redirArtiste()">
+			<img src="img-content/rosler.jpg" alt="rosler">
+			<p class="artistname"><a href="artiste.html">Martha Rosler</a></p>
+		</div>
+		<div class="artist clearfix" onClick="redirArtiste()">
+			<img src="img-content/vuk-cosic.jpg" alt="cosic">
+			<p class="artistname"><a href="artiste.html">Vuk Cosic</a></p>
+		</div>
+		<div class="artist clearfix" onClick="redirArtiste()">
+			<img src="img-content/cory-arcangel.jpg" alt="arcangel">
+			<p class="artistname"><a href="artiste.html">Cory Arcangel</a></p>
+		</div>
+		<div class="artist clearfix" onClick="redirArtiste()">
+			<img src="img-content/dominic-harris.jpg" alt="harris">
+			<p class="artistname"><a href="artiste.html">Dominic Harris</a></p>
+		</div>
+		<div class="artist clearfix" onClick="redirArtiste()">
+			<img src="img-content/dara-birnbaum.jpg" alt="birnbaum">
+			<p class="artistname"><a href="artiste.html">Dara Birnbaum</a></p>
+		</div>
+		<div class="artist clearfix" onClick="redirArtiste()">
+			<img src="img-content/pipilotti.jpg" alt="rist">
+			<p class="artistname"><a href="artiste.html">Pipilotti Rist</a></p>
+		</div>
+	</main>
+	<footer class="clearfix">
+		<div class="socials clearfix">
+			<ul>
+				<li><a href="#"><img src="img-layout/facebook-logo-button.svg" alt="facebook"></a></li>
+				<li><a href=""><img src="img-layout/twitter-logo-button.svg" alt="twitter"></a></li>
+				<li><a href=""><img src="img-layout/instagram-logo.svg" alt="instagram"></a></li>
+			</ul>
+		</div>
+		<div class="nl clearfix">
+			<input class="nl-mail" id="mail" type="email" name="nl-mail" placeholder="Votre email...">
+			<input class="nl-submit" id="nl-mail" type="submit" name="nl-mail" value="S'inscrire">
+			<p class="clearfix">Inscrivez-vous à notre newsletter !</p>
+		</div>
+		<div class="credits clearfix">
+			<p>&copy; Olivia Salas &amp; Tippi Degré</p>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+</html>
